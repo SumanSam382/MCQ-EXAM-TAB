@@ -1,0 +1,153 @@
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html >
+<html>
+<head>
+<!--meta charset="utf-8"-->
+		<!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
+		<!--title>Twitter Bootstrap Modal Login Popup - Social Login Popup </title-->
+		<!--meta name="description" content="Twitter Bootstrap Modal Login Popup - Social Login Popup ">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<!--link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'-->
+		
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	
+		<link rel="stylesheet" href="css/style1.css" />
+		<link href="style.css" rel="stylesheet" type="text/css" />
+
+		<script src="js1/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="js1/vendor/jquery-1.10.2.min.js"></script>
+		<script src="js1/vendor/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="header_wrapper">
+    <div id="header">
+        <div id="site_title_section">
+            <div id="site_title">
+	          EXAMINATION
+            </div>
+            <div id="salogon">
+	            ONLINE CODING COMPETITION</div>
+            <div class="cleaner">&nbsp;</div>
+        </div>
+        
+     
+    </div> <!-- end of header -->
+</div>  
+
+<div id="banner_wrapper">
+    <div id="banner">
+    
+        <div id="banner_header_01">DARE TO CODE</div><br>
+        <div id="banner_header_02">ARE YOU READY??</div>
+        <div id="banner_text">
+            <p>THIS IS A SIMPLE MCQ CHALLENGE TO ALL PROGRAMMERS</p><BR>
+			<p>NETAJI SHUBHASH ENGINEERING COLLEGE</p><BR>
+            <!--div class="rc_btn_01"><a href="#">Continue reading...</a></div-->
+        </div>
+    </div>	<!-- end of banner -->
+</div> <!-- end of banner wrapper -->
+
+<div id="menu_wrapper">    
+    <div id="menu">
+        <ul>
+            <!--a href="index.html"><img src="home.gif"   height="50" width="150" /></a-->
+            <a href="#login-modal " data-target="" data-toggle="modal" ><img src="order.png"   height="49" width="150" /></a>
+            &nbsp;&nbsp;&nbsp;<a><!--img src="admin.png"   height="50" width="150" /--></a>
+			<!--li><a href="chk.html"><span></span>TOP 10</a></li-->
+        </ul>    	
+    </div> <!-- end of menu -->
+</div> <!-- end of menu wrapper -->
+
+<div id="content_wrapper">
+    <div id="content">
+
+    <!--div id="content_left"-->
+        <!--div class="content_left_280_section margin_left_60"-->
+            <!--div class="content_header_01">AVINIR 2014</div-->
+            <div class="image_wrapper"><img src="nsec.jpg" height="500" width="1000" alt="image" /></div>
+			</div>
+			 
+        <!--div class="cleaner_h70"></div-->
+    </div> <!-- end of content left -->
+
+    <!--div id="content_right">
+    
+        <div class="content_right_280_section margin_right_60">
+            <div class="content_header_01">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAVINIR 2015</div>
+            <div class="image_wrapper"><img src="images/image_01.jpg" alt="image" /></div>
+            <!--p>Professional <a href="http://www.freecsstemplates.in/" target="_parent">website template</a> is provided by <a href="http://www.freecsstemplates.in" target="_parent">freecsstemplates.in</a> for everyone. You may download, modify and apply this layout for your personal or business websites. Credit go to <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos. <a href="#">Read more...</a></p-->
+      </div>
+    </div-->
+    </div>
+</div>    
+</body>
+</html>
+
+<html>
+<body>
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+    	<div class="modal-content">
+      		<div class="modal-header login_modal_header">
+        		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        		<h2 class="modal-title" id="myModalLabel">REGISTER TO TAKE THE EXAM</h2>
+      		</div>
+      		<div class="modal-body login-modal">
+                    <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            NETAJI SHUBHASH ENGINEERING COLLEGE</b></p>
+      			<br/>
+      			<div class="clearfix"></div>
+      			<div id='social-icons-conatainer'>
+	        		<div class='modal-body-left'>
+	        			<div class="form-group">
+						<form action="exam.jsp" method="post">
+		              		<input type="text" id="username" name="t1" placeholder="Enter your Team name" value="" class="form-control login-field">
+		              		<i class="fa fa-user login-field-icon"></i>
+		            	</div>
+						<div class="form-group">
+						<input type="text" id="username" name="t2" placeholder="Enter your  name" value="" class="form-control login-field">
+		              		<i class="fa fa-user login-field-icon"></i>
+		            	</div>
+
+		
+		            	<div class="form-group">
+		            	  	<input type="password" name="t3" id="login-pass" placeholder="Password" value="" class="form-control login-field">
+		              		<i class="fa fa-lock login-field-icon"></i>
+		            	</div>
+		
+                                    <input type="submit" value="Submit" class="btn btn-success modal-login-btn">Login
+		            	<!--a href="#" class="login-link text-center">Lost your password?</a-->
+	        		</div>
+	        	</form>
+	        		<div class='modal-body-right'>
+	        			<div class="modal-social-icons">
+	        				<!--a href="leaderboard.jsp" > <img src="admin.png"   height="50" width="150" /></a-->
+	        				<img src="logo.jpg"   height="200" width="170" />
+							</div> 
+	        		</div>	
+	        		<!--div id='center-line'> OR </div-->
+	        	</div>																												
+        		<!--div class="clearfix"></div-->
+        		
+        		<!--div class="form-group modal-register-btn">
+        			<button class="btn btn-default"> New User Please Register</button>
+        		</div-->
+      		</div>
+      		<div class="clearfix"></div>
+      		<div class="modal-footer login_modal_footer">
+      		</div>
+    	</div>
+  	</div>
+</div>
+</body>
+</html>
